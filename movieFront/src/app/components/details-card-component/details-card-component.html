@@ -1,0 +1,31 @@
+@if (myMovie()) {
+  <mat-card class="sm:h-[300px] md:h-[350px] lg:h-[400px] p-2" appearance="outlined">
+    <!-- src="{{ myMovie().poster }}" -->
+    <article class="h-full w-full flex flex-col sm:flex-row justify-between gap-3 overflow-hidden">
+      <img
+        mat-card-image
+        class="h-[500px] w-full sm:h-full sm:w-[50%] object-cover"
+        [src]="applyPoster()"
+        alt="{{ myMovie().title }}"
+      />
+      <div class="p-2 w-full sm:h-full sm:w-[50%] flex flex-col gap-3 overflow-hidden">
+        <h3 class="text-2xl text-gray-900">
+          {{ myMovie().title }}
+        </h3>
+        <p class="font-bold text-gray-600">
+          <span> {{ myMovie().year }}</span>
+          <span> {{ myMovie().director }}</span>
+        </p>
+        <p class="flex gap-2 items-center">
+          <span>{{ myMovie().genres[0] }}</span>
+          <span>{{ myMovie().genres[1] }}</span>
+        </p>
+        <p class="font-bold text-gray-600 flex gap-1 items-center">
+          <svg lucideStar size="15" class="text-secondarybg"></svg>
+          <span>{{ myMovie().rating }}</span>
+        </p>
+        <p>{{ myMovie().actors }}</p>
+      </div>
+    </article>
+  </mat-card>
+}

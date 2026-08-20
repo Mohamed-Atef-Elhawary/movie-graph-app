@@ -1,0 +1,8 @@
+@if (movieDetail()) {
+  <app-details-card-component [myMovie]="movieDetail()!"></app-details-card-component>
+}
+<div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 my-4">
+  @for (movie of recommendedMovies(); track $index) {
+    <app-movie-card-component [movieInput]="movie"></app-movie-card-component>
+  }
+</div>

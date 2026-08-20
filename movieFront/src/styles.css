@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+
+@import 'tailwindcss';
+@theme {
+  --color-mainbg: #f7f6fc;
+  --color-sidebarbg: #fafafc;
+  --color-secondarybg: #9198e8;
+  --color-subHeading: #7d8aa1;
+  --color-dark: #1f1e28;
+  --color-danger: #dc2626;
+  --color-danger2: #ef4444;
+  --color-btnporder: #4f46e5;
+  --color-disbtnporder: #d1d5db;
+  --duration-custom: 300;
+}
