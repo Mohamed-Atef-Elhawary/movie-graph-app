@@ -1,3 +1,3 @@
 export const environment = {
-  backendUrl: 'http://localhost:5000/api/movies',
+  backendUrl: 'https://movie-graph-backend.vercel.app/api/movies',
 };
