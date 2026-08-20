@@ -126,14 +126,16 @@ By default the app runs on `http://localhost:4200` and calls the backend at the 
 ## 📸 Screenshots
 
 **Home — browsing movies**
-![Home page](./screenshots/home.png)
+![Home page]<img width="1901" height="917" alt="image" src="https://github.com/user-attachments/assets/0d67fc4b-8ae9-4e19-8e87-12bfa071b8dd" />
+
 
 **Movie details**
-![Movie details page](./screenshots/movie-detail.png)
+![Movie details page]<img width="1900" height="913" alt="image" src="https://github.com/user-attachments/assets/77421a7e-4846-491c-be04-1d80373adbd5" />
+
 
 ## 🎥 Demo video
 A short screen recording walking through the app is available here: *[add link]*
 
 ---
 
-Built by **Mohamed Elhaware** for the Wexa AI CognoDB take-home assignment.
+Built by **Mohamed Atef Elhaware** for the Wexa AI CognoDB take-home assignment.
