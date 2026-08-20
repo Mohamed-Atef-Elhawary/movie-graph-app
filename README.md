@@ -134,7 +134,7 @@ By default the app runs on `http://localhost:4200` and calls the backend at the 
 
 
 ## 🎥 Demo video
-A short screen recording walking through the app is available here: *[add link]*
+A short screen recording walking through the app is available here: https://drive.google.com/file/d/1oderPza9RZndDCX1ILeCmDxe17ar2WYh/view?usp=sharing
 
 ---
 
